@@ -14,9 +14,9 @@ function HappyCakeApp() {
       <Header logo={logo}/>
       <div className="container my-4">
         <Routes>
-          <Route path="/" element={<Home logo={logo}/>}></Route>
-          <Route path="/blog" element={<Blog />}></Route>
-          <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/react-router-practice" element={<Home logo={logo}/>}></Route>
+          <Route path="/react-router-practice/blog" element={<Blog />}></Route>
+          <Route path="/react-router-practice/contact" element={<Contact/>}></Route>
           <Route path="*" element={<PageNotFound/>}></Route>
         </Routes>
       </div>
