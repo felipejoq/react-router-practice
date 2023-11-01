@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import {getPots} from "../services/posts.js";
-import {Article} from "./Article.jsx";
+import {Article} from "../components/Article.jsx";
 
 export const Blog = () => {
   const [posts, setPosts] = useState([]);
