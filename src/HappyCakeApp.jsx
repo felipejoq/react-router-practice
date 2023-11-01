@@ -1,11 +1,11 @@
 import {Header} from "./components/Header.jsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {Home} from "./components/Home.jsx";
-import {Contact} from "./components/Contact.jsx";
+import {Contact} from "./views/Contact.jsx";
 import logo from "./assets/logo.png"
-import {Blog} from "./components/Blog.jsx";
+import {Blog} from "./views/Blog.jsx";
 import {Footer} from "./components/Footer.jsx";
-import {PageNotFound} from "./components/PageNotFound.jsx";
+import {Home} from "./views/Home.jsx";
+import {PageNotFound} from "./views/PageNotFound.jsx";
 
 function HappyCakeApp() {
 
