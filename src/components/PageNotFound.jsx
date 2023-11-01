@@ -1,6 +1,8 @@
 import notFoundImg from "../assets/404.png";
 import {Link} from "react-router-dom";
 export const PageNotFound = () => {
+
+
   return (
     <div className="text-center w-100">
       <h1>Página no encontrada</h1>
