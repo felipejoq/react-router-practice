@@ -1,5 +1,5 @@
 import {Header} from "./components/Header.jsx";
-import {Route, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Home} from "./components/Home.jsx";
 import {Contact} from "./components/Contact.jsx";
 import logo from "./assets/logo.png"
@@ -11,16 +11,16 @@ function HappyCakeApp() {
 
   return (
     <>
-      <Header logo={logo}/>
-      <div className="container my-4">
+      <BrowserRouter basename="/react-router-practice">
+      <Header/>
         <Routes>
-          <Route path="/react-router-practice" element={<Home logo={logo}/>}></Route>
-          <Route path="/react-router-practice/blog" element={<Blog />}></Route>
-          <Route path="/react-router-practice/contact" element={<Contact/>}></Route>
+          <Route path="/" element={<Home logo={logo}/>}></Route>
+          <Route path="/blog" element={<Blog/>}></Route>
+          <Route path="/contact" element={<Contact/>}></Route>
           <Route path="*" element={<PageNotFound/>}></Route>
         </Routes>
-      </div>
-      <Footer />
+      </BrowserRouter>
+      <Footer/>
     </>
   )
 }
