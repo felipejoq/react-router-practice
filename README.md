@@ -4,7 +4,7 @@ Este es un ejercicio para practicar con rutas en React usando el paquete React R
 
 Todo el desafío queda explicado en [este archivo pdf](https://github.com/felipejoq/react-router-practice/blob/main/01_challenge_happy_cake.pdf?raw=true)
 
-👉 [Live demo here](https://felipejoq.github.io/react-router-practice/) 🧁
+👉 [Live demo here](https://happycake-practice.netlify.app/) 🧁
 
 ## Vista previa:
 

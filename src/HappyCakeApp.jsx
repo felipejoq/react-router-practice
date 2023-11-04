@@ -11,7 +11,7 @@ function HappyCakeApp() {
 
   return (
     <>
-      <BrowserRouter basename="/react-router-practice">
+      <BrowserRouter>
       <Header/>
         <Routes>
           <Route path="/" element={<Home logo={logo}/>}></Route>
